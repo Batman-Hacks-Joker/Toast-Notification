@@ -33,7 +33,7 @@ success.onclick = function(){
 
 error.onclick = function(){
     let type = 'error';
-    let icon = 'fa-solid fa-circle-exclamation';
+    let icon = 'fa-solid fa-skull-crossbones';
     let title = 'Error';
     let text= '0Oops! this is an error';
     createToast(type,icon,title,text);
@@ -41,8 +41,8 @@ error.onclick = function(){
 
 warning.onclick = function(){
     let type = 'warning';
-    let icon = 'fa-solid fa-triangle-exclamation';
-    let title = 'Error';
+    let icon = '<fa-sharp fa-solid fa-triangle-exclamation';
+    let title = 'Warning';
     let text = 'Beware! this is a warning';
     createToast(type, icon, title, text);
 }
